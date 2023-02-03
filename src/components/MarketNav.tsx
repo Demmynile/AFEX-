@@ -26,7 +26,7 @@ const MarketNav = ({showMarket} : marketNavTypes) => {
 
   return (
 	<div>
-       {showMarket  && (<div className='w-[217px] h-[392px]  bg-white shadow-lg mt-[5rem]'>
+       {!showMarket  && (<div className='w-[217px] h-[392px]  bg-white shadow-lg mt-[5rem]'>
 		
 			<div className='flex flex-col items-center justify-center gap-y-[0.1rem]'>
 
